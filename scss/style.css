@@ -1173,8 +1173,10 @@ hr {
 .bg-home-use {
   position: relative;
   padding: 100px 0px 150px 0px;
-  background-image: url(../assets/bg/bg-1.png);
+  background-image: url(../assets/bg/bg-4.jpeg);
+  background-repeat: no-repeat;
   background-position: center center;
+  background-size: cover;
 }
 
 .test-bg {

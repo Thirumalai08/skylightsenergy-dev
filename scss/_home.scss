@@ -88,8 +88,11 @@
 .bg-home-use {
     position: relative;
     padding: 100px 0px 150px 0px;
-    background-image: url(../assets/bg/bg-1.png);
+    // background-image: url(../assets/bg/bg-1.png);
+    background-image: url(../assets/bg/bg-4.jpeg);
+    background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
 }
 
 .test-bg {
@@ -101,7 +104,13 @@
 .test-animate-img {
     position: relative;
     z-index: -2;
+    // height: 30vh;
     img {
+        // top: 0;
+        // left: 0;
+        // width: 100%;
+        // height: 100%;
+        // object-fit: contain;
         position: absolute;
     }
 }

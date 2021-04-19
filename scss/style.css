@@ -1102,9 +1102,7 @@ hr {
 }
 .bg-home-6 {
   position: relative;
-  padding: 180px 0px 250px 0px;
-  background-image: url(../assets/bg/bg-1.png);
-  background-position: center center;
+  padding: 150px 0px 100px 0px;
 }
 
 .home-text h2 {
@@ -1131,6 +1129,18 @@ hr {
   font-weight: 900;
   text-transform: uppercase;
   margin-left: 470px;
+}
+
+.illustration {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+.illustration svg {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  height: auto;
 }
 
 @media (max-width: 991px) {

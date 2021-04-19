@@ -1173,7 +1173,7 @@ hr {
 .bg-home-use {
   position: relative;
   padding: 100px 0px 150px 0px;
-  background-image: url(../assets/bg/bg-4.jpeg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../assets/bg/bg-4.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1190,6 +1190,7 @@ hr {
 }
 .test-animate-img img {
   position: absolute;
+  height: 500px;
 }
 
 .features-box {

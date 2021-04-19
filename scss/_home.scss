@@ -91,3 +91,22 @@
     background-image: url(../assets/bg/bg-1.png);
     background-position: center center;
 }
+
+.test-bg {
+    position: relative;
+    padding: 180px 0px 150px 0px;
+    // background-image: url(../assets/bg/bg-1.png);
+    // background-position: center center;
+}
+.test-animate-img {
+    position: relative;
+    z-index: -2;
+    img {
+        position: absolute;
+    }
+}
+// .test-textBx {
+//     position: absolute;
+//     top: 5%;
+//     left: 5%;
+// }

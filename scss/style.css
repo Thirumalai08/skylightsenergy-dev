@@ -1143,6 +1143,14 @@ hr {
   height: auto;
 }
 
+svg {
+  width: 100%;
+}
+
+.device {
+  perspective: 400;
+}
+
 @media (max-width: 991px) {
   .home-text h2 {
     line-height: 53px;
@@ -1183,7 +1191,7 @@ hr {
 .bg-home-use {
   position: relative;
   padding: 100px 0px 150px 0px;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../assets/bg/bg-4.jpeg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../assets/bg/why3.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
